@@ -5,7 +5,7 @@ pipeline{
     }
     environment{
         APP_DIR="/opt/springboot-app"
-        JAR_NAME="app.jar"
+        JAR_NAME="tg.jar"
         BUILD_JAR="target/demo-0.0.2-SNAPSHOT.jar"
     }
     stages{
@@ -35,3 +35,4 @@ pipeline{
         }
     }
 }
+
